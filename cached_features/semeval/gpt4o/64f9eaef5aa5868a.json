@@ -1,0 +1,8 @@
+{
+  "surface_polarity": -0.038,
+  "situational_polarity": -0.294,
+  "hyperbole_score": 0.016,
+  "incongruity_score": 0.269,
+  "sarcasm_confidence": 0.635,
+  "reasoning_chain": "Surface tokens suggest polarity -0.04. Contextual analysis indicates situational polarity of -0.29. The gap between surface and situational sentiment yields incongruity 0.27."
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "sentence": "Oh great, another Monday morning meeting to brighten my day",
+    "output": {
+      "surface_polarity": 0.72,
+      "situational_polarity": -0.65,
+      "hyperbole_score": 0.4,
+      "incongruity_score": 0.87,
+      "sarcasm_confidence": 0.91,
+      "reasoning_chain": "The words 'great' and 'brighten' carry positive surface sentiment (+0.72). However, Monday morning meetings are conventionally perceived as tedious obligations, suggesting negative situational sentiment (-0.65). The word 'Oh' preceding 'great' signals performative enthusiasm. The gap between surface positivity and situational negativity yields high incongruity (0.87). The combination of these cues indicates sarcastic intent with high confidence (0.91)."
+    }
+  },
+  {
+    "sentence": "I failed my driving test for the third time today",
+    "output": {
+      "surface_polarity": -0.78,
+      "situational_polarity": -0.82,
+      "hyperbole_score": 0.0,
+      "incongruity_score": 0.08,
+      "sarcasm_confidence": 0.05,
+      "reasoning_chain": "The word 'failed' conveys clear negative surface sentiment (-0.78). The situation described (failing a driving test three times) is objectively negative (-0.82). There is no exaggeration or performative language. Surface and situational sentiment are aligned, yielding minimal incongruity (0.08). No sarcastic markers are present (0.05)."
+    }
+  },
+  {
+    "sentence": "Just adopted the cutest puppy from the shelter and she already loves belly rubs",
+    "output": {
+      "surface_polarity": 0.88,
+      "situational_polarity": 0.85,
+      "hyperbole_score": 0.15,
+      "incongruity_score": 0.06,
+      "sarcasm_confidence": 0.03,
+      "reasoning_chain": "Words like 'cutest', 'loves', and 'belly rubs' express positive surface sentiment (+0.88). Adopting a puppy from a shelter is a positive event (+0.85). Slight hyperbole in 'cutest' and 'already loves' but within normal affectionate register (0.15). Surface and situational sentiment are closely aligned with low incongruity (0.06). No sarcastic cues detected (0.03)."
+    }
+  }
+]

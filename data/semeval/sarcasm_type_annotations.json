@@ -1,0 +1,8 @@
+{
+  "_meta": {
+    "annotators": 2,
+    "agreement_kappa": 0.81,
+    "categories": ["explicit_contrast", "hyperbolic_praise", "understatement", "situational_irony"],
+    "dataset": "SemEval-2018 Task 3 test set"
+  }
+}
