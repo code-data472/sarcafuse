@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  sarcafuse:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ../data:/workspace/data
+      - ../cached_features:/workspace/cached_features
+      - ../checkpoints:/workspace/checkpoints
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}

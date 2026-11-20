@@ -1,0 +1,7 @@
+_base_: default.yaml
+cache_dir: cached_features/sarc/gpt4o
+data_train: data/sarc/splits/train.tsv
+data_val: data/sarc/splits/val.tsv
+data_test: data/sarc/splits/test.tsv
+dataset_name: sarc
+batch_size: 128

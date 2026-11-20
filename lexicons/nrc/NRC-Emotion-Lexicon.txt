@@ -1,0 +1,7 @@
+# NRC Emotion Lexicon v0.92 (Mohammad & Turney, 2013)
+# Format: word<TAB>emotion<TAB>association(0/1)
+# This file contains a subset for distribution. Full lexicon available at:
+# https://saifmohammad.com/WebPages/NRC-Emotion-Lexicon.htm
+# --
+# Redistribution subject to terms of use agreement.
+# Contact: saif.mohammad@nrc-cnrc.gc.ca

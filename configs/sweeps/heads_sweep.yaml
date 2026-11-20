@@ -1,0 +1,4 @@
+sweep_param: gat_heads
+values: [1, 2, 4, 6, 8]
+base_config: configs/semeval.yaml
+metric: f1

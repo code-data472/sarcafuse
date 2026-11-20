@@ -1,0 +1,7 @@
+_base_: default.yaml
+cache_dir: cached_features/ptacek/gpt4o
+data_train: data/ptacek/splits/train.tsv
+data_val: data/ptacek/splits/val.tsv
+data_test: data/ptacek/splits/test.tsv
+dataset_name: ptacek
+batch_size: 128

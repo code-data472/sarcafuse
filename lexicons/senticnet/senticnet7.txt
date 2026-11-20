@@ -1,0 +1,6 @@
+# SenticNet 7 polarity values (Cambria et al., 2022)
+# Format: concept<TAB>polarity_value
+# This file contains a subset for distribution. Full knowledge base:
+# https://sentic.net/
+# --
+# Subject to SenticNet license terms.

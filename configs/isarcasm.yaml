@@ -1,0 +1,6 @@
+_base_: default.yaml
+cache_dir: cached_features/isarcasm/gpt4o
+data_train: data/isarcasm/splits/train.tsv
+data_val: data/isarcasm/splits/val.tsv
+data_test: data/isarcasm/splits/test.tsv
+dataset_name: isarcasm

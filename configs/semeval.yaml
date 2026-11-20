@@ -1,0 +1,6 @@
+_base_: default.yaml
+cache_dir: cached_features/semeval/gpt4o
+data_train: data/semeval/splits/train.tsv
+data_val: data/semeval/splits/val.tsv
+data_test: data/semeval/splits/test.tsv
+dataset_name: semeval
